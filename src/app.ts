@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
-import register from "./api/auth/register";
-import login from "./api/auth/login";
-import getSlots from "./api/slots/getSlots";
-import book from "./api/bookings/book";
-import myBookings from "./api/bookings/myBookings";
-import allBookings from "./api/bookings/allBookings";
+import register from "./api/auth/register.js";
+import login from "./api/auth/login.js";
+import getSlots from "./api/slots/getSlots.js";
+import book from "./api/bookings/book.js";
+import myBookings from "./api/bookings/myBookings.js";
+import allBookings from "./api/bookings/allBookings.js";
 
 const app = express();
 app.use(cors());

@@ -1,7 +1,7 @@
 import express from "express";
-import { prisma } from "../../lib/prisma";
-import { authenticate } from "../../middlewares/authMiddleware";
-import { isAdmin } from "../../middlewares/authMiddleware";
+import { prisma } from "../../lib/prisma.js";
+import { authenticate } from "../../middlewares/authMiddleware.js";
+import { isAdmin } from "../../middlewares/authMiddleware.js";
 
 const allBookings = express.Router();
 
