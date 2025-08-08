@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // Or "esnext", "node16", etc., choose a modern JS version
+    "module": "commonjs", // Or "esnext", "node16", "nodenext" for ESM output if you prefer
+    "outDir": "./dist", // Output compiled JS files to a 'dist' directory
+    "strict": true, // Enable all strict type-checking options (recommended)
+    "esModuleInterop": true, // Allow default imports from modules with no default export
+    "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true, // Ensure that casing is consistent throughout a file path
+    "moduleResolution": "node" // How modules are resolved (Node.js style)
+  },
+  "include": ["src/**/*.ts"], // Include all .ts files in the src directory
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and the output dist folder
+}
